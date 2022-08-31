@@ -1,0 +1,37 @@
+.mainA {
+
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    flex-direction: column;
+}
+
+.titleA {
+    margin-top: 8rem;
+    font-family: 'Michroma', sans-serif;
+    font-size: 3rem;
+    justify-content: center;
+    color: #FFCCCC;
+    margin-bottom: 0%;
+}
+
+.textA {
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    color: #FFFFFF;
+}
+
+.h4H {
+    margin-top: 7rem;
+    font-size: 3rem;
+    color: #E4ACA6;
+    /* margin-bottom: -2rem; */
+}
+
+.h4H:hover {
+    color: #FFFFFF;
+    transition: 300ms;
+}

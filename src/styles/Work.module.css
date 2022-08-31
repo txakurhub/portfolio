@@ -1,0 +1,49 @@
+.mainW {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+
+.titleW {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Michroma', sans-serif;
+    justify-content: center;
+    /* margin: 0%; */
+}
+
+.workh3 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+.workh2 {
+    margin-top: -1.5rem;
+    margin-bottom: 0rem;
+    font-size: 5rem;
+    color: #FFCCCC;
+}
+
+.cardsW {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.h4H {
+    /* margin-top: -3rem; */
+    font-size: 3rem;
+    color: #E4ACA6;
+
+    /* margin-bottom: -2rem; */
+}
+
+.h4H:hover {
+    color: #FFFFFF;
+    transition: 300ms;
+}

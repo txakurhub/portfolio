@@ -32,7 +32,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+/* 
+.top {
+  position: unset;
+  font-size: 3rem;
+  color: #FFFFFF;
+  left: 3rem;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.up {
+  position: fixed;
+  font-size: 13rem;
+  color: #FFFFFF;
+  margin-right: 10rem;
+  border-radius: 100%;
+  background-color: red;
+} */

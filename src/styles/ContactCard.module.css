@@ -1,0 +1,17 @@
+.mainCC {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+
+.imgCC {
+    margin-top: 3rem;
+    width: 6rem;
+    color: white;
+}
+
+.textCC {
+    margin-top: 1rem;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+}

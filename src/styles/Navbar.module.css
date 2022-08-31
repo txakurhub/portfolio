@@ -1,0 +1,28 @@
+.mainN {
+    display: flex;
+    position: fixed;
+    background-color: #191919;
+    height: 5rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.itemsN {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.itemN {
+    text-decoration: none;
+    padding: 1rem;
+    margin: 2rem;
+    color: #FFCCCC;
+    font-family: 'Michroma', sans-serif;
+}
+
+.itemN:hover{
+    color: #FFFFFF;
+    transition: 300ms;
+}
