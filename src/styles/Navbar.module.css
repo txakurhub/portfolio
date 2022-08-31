@@ -25,4 +25,6 @@
 .itemN:hover{
     color: #FFFFFF;
     transition: 300ms;
+    background-color: rgba(0, 0, 0, 0.147);
+    /* border-radius: 100%; */
 }

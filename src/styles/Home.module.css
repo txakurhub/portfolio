@@ -47,7 +47,17 @@
 .h4H:hover {
     color: #FFFFFF; 
     transition: 300ms;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.363);
     border-radius: 100%;
     width: 8rem;
+}
+
+.mainH h1:hover{
+    color: #E4ACA6;
+    transition: 300ms;
+}
+
+.mainH h2:hover{
+    color: #FFFFFF;     
+    transition: 300ms;
 }

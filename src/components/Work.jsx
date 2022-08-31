@@ -2,9 +2,9 @@ import React from "react";
 import { Card } from "./Card";
 import styles from "../styles/Work.module.css"
 
-import bark from "../assets/barkleakshome.jpg";
-import movie from "../assets/movieshome.jpg";
-import sneaker from "../assets/sneakershome.png";
+import bark from "../assets/homebark.jpg";
+import movie from "../assets/homemovies.jpg";
+import sneaker from "../assets/homesneakers.jpg";
 
 const sneakerTXT =
   "Application for the purchase of sneakers. Supports payment with QR, MercadoPago and PayPal. It has both a user panel where you can review profile, favorites, shopping cart and purchase history, and an administrator panel with sales statistics, stock, categories and users where to create, search, edit or delete any of the above.";

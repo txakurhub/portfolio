@@ -5,11 +5,21 @@ import { Animated } from "react-animated-css";
 export const Navbar = () => {
   return (
     <nav className={styles.mainN}>
-      <div className={styles.itemsN}>
-        <a className={styles.itemN} href="#about">ABOUT</a>
-        <a className={styles.itemN} href="#work">WORK</a>
-        <a className={styles.itemN} href="#contact">CONTACT</a>
-      </div>
+      <Animated animationInDelay={12000} animationIn="flash">
+        <Animated animationInDelay={6000} animationIn="flash">
+          <div className={styles.itemsN}>
+            <a className={styles.itemN} href="#about">
+              ABOUT
+            </a>
+            <a className={styles.itemN} href="#work">
+              WORK
+            </a>
+            <a className={styles.itemN} href="#contact">
+              CONTACT
+            </a>
+          </div>
+        </Animated>
+      </Animated>
     </nav>
   );
 };
