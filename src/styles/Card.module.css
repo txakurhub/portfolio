@@ -7,8 +7,12 @@
     width: 24rem;
     height: 35rem;
     margin: 2rem;
-    background-color: #1A1A1A;
+    background-color: #8e8d8d0f;
     border-radius: 5%;
+}
+.cardContainer:hover{
+    background-color: #1A1A1A;
+    transition: 300ms;
 }
 .cardInfo{
     display: flex;
@@ -18,7 +22,9 @@
     align-content: center;
 }
 .cardTitle{
-    color: #FFFFFF
+    color: #ffffffa0;
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.45rem;
 }
 .cardImg img{
     object-fit: contain;

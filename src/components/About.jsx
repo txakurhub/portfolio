@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <section className={styles.mainA} id="about">
       <p></p>
-      <div className={styles.titleA} >
+      <div className={styles.titleA}>
         <h2>ABOUT</h2>
       </div>
       <div className={styles.textA}>
@@ -26,7 +26,57 @@ export const About = () => {
           ratione quia pariatur!
         </h4>
       </div>
-      <a href="#work" className={styles.h4H}>ᐁ</a>
+      <div className={styles.techStack}>
+        <h4>SOME OF THE TECHNOLOGIES I WORK WITH ARE</h4>
+        <a href="https://www.javascript.com/">
+          <i class="devicon-javascript-plain"></i>
+        </a>
+        <a href="https://git-scm.com/">
+          <i class="devicon-git-plain"></i>
+        </a>
+        <a href="https://lenguajehtml.com/">
+          <i class="devicon-html5-plain"></i>
+        </a>
+        <a href="https://www.w3.org/Style/CSS/">
+          <i class="devicon-css3-plain"></i>
+        </a>
+        <a href="https://github.com/">
+          <i class="devicon-github-original"></i>
+        </a>
+        <a href="https://reactjs.org/">
+          <i class="devicon-react-original"></i>
+        </a>
+        <a href="https://redux.js.org/">
+          <i class="devicon-redux-original"></i>
+        </a>
+        <a href="https://www.npmjs.com/">
+          <i class="devicon-npm-original-wordmark"></i>
+        </a>
+        <a href="https://nodejs.org/en/">
+          <i class="devicon-nodejs-plain"></i>
+        </a>
+        <a href="http://expressjs.com/">
+          <i class="devicon-express-original"></i>
+        </a>
+        <a href="https://trello.com/">
+          <i class="devicon-trello-plain"></i>
+        </a>
+        <a href="https://sequelize.org/">
+          <i class="devicon-sequelize-plain"></i>
+        </a>
+        <a href="https://www.postgresql.org/">
+          <i class="devicon-postgresql-plain"></i>
+        </a>
+        <a href="https://code.visualstudio.com/">
+          <i class="devicon-visualstudio-plain"></i>
+        </a>
+        <a href="https://firebase.google.com/">
+          <i class="devicon-firebase-plain"></i>
+        </a>
+      </div>
+      <a href="#work" className={styles.h4H}>
+        ᐁ
+      </a>
     </section>
   );
 };
