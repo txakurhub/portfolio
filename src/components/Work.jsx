@@ -15,11 +15,11 @@ const movieTXT =
 
 const sneakerURL = "https://sneakers-xxre.vercel.app";
 const barkURL = "https://barkleaks.vercel.app/";
-const movieURL = "";
+const movieURL = "https://moviesapp-one.vercel.app/";
 
 const barkREPO = "https://github.com/txakurhub/PI-Dogs";
 const sneakerREPO = "https://github.com/txakurhub/pfinal_client";
-const movieREPO = "";
+const movieREPO = "https://github.com/txakurhub/movie-app";
 
 export const Work = () => {
   return (
