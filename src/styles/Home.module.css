@@ -35,6 +35,9 @@
     color: #E4ACA6;
     margin-top: -1.5rem;
     margin-bottom: 7rem;
+    white-space: nowrap;
+    overflow: hidden;
+
 }
 
 .h4H {
@@ -45,19 +48,36 @@
 }
 
 .h4H:hover {
-    color: #FFFFFF; 
+    color: #FFFFFF;
     transition: 300ms;
     background-color: rgba(0, 0, 0, 0.363);
     border-radius: 100%;
     width: 8rem;
 }
 
-.mainH h1:hover{
+.mainH h1:hover {
     color: #E4ACA6;
     transition: 300ms;
 }
 
-.mainH h2:hover{
-    color: #FFFFFF;     
+.mainH h2:hover {
+    color: #FFFFFF;
     transition: 300ms;
+}
+
+
+/* Animation */
+.h2D {
+    animation: animated-text 4s steps(30, end) 1s 1 normal both;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 38rem;
+    }
 }

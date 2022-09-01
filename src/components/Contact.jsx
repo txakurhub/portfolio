@@ -1,9 +1,5 @@
 import React from "react";
 import { ContactCard } from "./ContactCard";
-import github from "../assets/githublogo.png";
-import linkedin from "../assets/logolinkedin.png";
-import mail from "../assets/mail.png";
-import resume from "../assets/resume.png"
 import cv from "../assets/CV - LEANDRO PEREYRA.pdf"
 import styles from "../styles/Contact.module.css"
 
@@ -19,21 +15,21 @@ export const Contact = () => {
       </div>
       <div className={styles.cardsC}>
         <ContactCard
-          img={github}
+          img="logo-github"
           link={githubProfile}
           description="/txakurhub"
         />
         <ContactCard
-          img={linkedin}
+          img="logo-linkedin"
           link={linkedinProfile}
           description="/leandro-pereyra"
         />
         <ContactCard
-          img={mail}
+          img="mail-outline"
           link={`mailto:${email}`}
           description={email}
         />
-        <ContactCard img={resume} link={cv} description="Resume" />
+        <ContactCard img="document-text-outline" link={cv} description="Resume" />
       </div>
     </section>
   );

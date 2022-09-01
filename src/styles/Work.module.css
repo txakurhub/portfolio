@@ -3,11 +3,11 @@
     margin-left: 5rem;
     margin-right: 5rem;
     flex-direction: column;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 .titleW {
-    margin-top: 8rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     font-family: 'Michroma', sans-serif;
@@ -36,7 +36,7 @@
 }
 
 .h4H {
-    /* margin-top: -3rem; */
+    margin-top: 0rem;
     font-size: 3rem;
     color: #E4ACA6;
 

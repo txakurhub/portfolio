@@ -1,21 +1,22 @@
 import React from "react";
-import github from "../assets/githublogo.png";
-import link from "../assets/link.png";
 import styles from "../styles/Card.module.css";
 
 export const Card = ({ snapshot, text, deployURL, repo, title }) => {
   return (
     <div className={styles.cardContainer}>
-      <div className={styles.cardImg}>
-        <img src={snapshot} alt="" />
+      <div className={styles.cardInfo}>
+        <h2 className={styles.cardTitle}>{title}</h2>
+        <div className={styles.cardImg}>
+          <img src={snapshot} alt="" />
+        </div>
+        <h4 className={styles.cardText}>{text}</h4>
       </div>
-      <h4 className={styles.cardText}>{text}</h4>
       <div className={styles.cardLinks}>
         <a href={repo}>
-          <img width="60" src={github} alt="/txakurhub" />
+          <ion-icon name="logo-github"></ion-icon>
         </a>
         <a href={deployURL}>
-          <img width="60" src={link} alt="deploy" />
+          <ion-icon name="link-outline"></ion-icon>
         </a>
       </div>
     </div>

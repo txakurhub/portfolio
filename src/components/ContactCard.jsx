@@ -6,7 +6,7 @@ export const ContactCard = ({img, link, description}) => {
   return (
     <div className={styles.mainCC}>
       <a href={link}>
-        <img src={img} alt="contact by" className={styles.imgCC}/>
+      <ion-icon name={img}></ion-icon>
       </a>
       <div className={styles.textCC}>{description && description}</div>
     </div>

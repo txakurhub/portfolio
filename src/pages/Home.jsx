@@ -14,18 +14,18 @@ export const Home = () => {
           <h1 className={styles.h1U}>LEANDRO</h1>
           <h1 className={styles.h1D}>PEREYRA</h1>
         </Animated>
-        <Animated animationIn="flash" animationInDelay={1000}
+        <Animated animationIn="flash" animationInDelay={6000}
         animationInDuration={7500}>
           <h2 className={styles.h2D}>A FULL STACK DEVELOPER</h2>
         </Animated>
         <Animated
-          animationInDelay={3000}
+          animationInDelay={9000}
           animationIn="headShake"
         >
-          <Animated animationInDelay={4500} animationIn="headShake" animationInDuration={2000}>
+          <Animated animationInDelay={11000} animationIn="headShake" animationInDuration={2000}>
             <Animated
             
-              animationInDelay={6000}
+              animationInDelay={13500}
               animationInDuration={9000}
               animationIn="headShake"
             >
