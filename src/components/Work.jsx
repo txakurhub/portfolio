@@ -31,7 +31,7 @@ export const Work = () => {
       
       <div className={styles.titleW}>
         <h3 className={styles.workh3}>SOME OF MY</h3>
-        <h2 className={styles.workh2}>WORK</h2>
+        <h2 className={styles.workh2}>WORK</h2> 
       </div>
       <div className={styles.cardsW}>
         <Card
