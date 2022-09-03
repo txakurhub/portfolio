@@ -25,7 +25,7 @@ export const Home = () => {
           <div className={styles.h1U}>
             <h1>LEANDRO</h1>
           </div>
-          <h1 className={styles.h1D}>PEREYRA</h1>
+          <h1 className={styles.h1D}>PEREYRA</h1> 
         </Animated>
         <h2 className={styles.h2D}>A FULL STACK DEVELOPER</h2>
         {/* <Animated
