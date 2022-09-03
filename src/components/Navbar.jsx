@@ -9,13 +9,13 @@ export const Navbar = () => {
         <Animated animationInDelay={6000} animationIn="flash">
           <div className={styles.itemsN}>
             <a className={styles.itemN} href="#about">
-              ABOUT
+              A B O U T
             </a>
             <a className={styles.itemN} href="#work">
-              WORK
+              W O R K
             </a>
             <a className={styles.itemN} href="#contact">
-              CONTACT
+              C O N T A C T
             </a>
           </div>
         </Animated>

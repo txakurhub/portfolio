@@ -26,7 +26,7 @@
     font-family: 'Michroma', sans-serif;
     font-size: 1.45rem;
 }
-.cardImg img{
+.cardImg video{
     object-fit: contain;
     width: 24rem;
     height: 15rem;

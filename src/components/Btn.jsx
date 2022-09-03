@@ -12,9 +12,6 @@ export const Btn = () => {
       setState(true);
     }
   };
-
-  console.log(btnUp);
-
   return (
     <a href="#home" id="btnUp" className={state === true ? styles.up : styles.top}>
       ᐃ

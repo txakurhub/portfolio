@@ -56,6 +56,9 @@
 }
 .techStack i:hover {
     color: #E4ACA6;
-    font-size: 4rem;
-    transition: 300ms;
+    font-size: 5rem;
+    padding: 0;
+    margin-top: 0;
+    transition: 600ms;
 }
+

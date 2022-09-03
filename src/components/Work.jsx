@@ -6,6 +6,10 @@ import bark from "../assets/homebark.jpg";
 import movie from "../assets/homemovies.jpg";
 import sneaker from "../assets/homesneakers.jpg";
 
+import barkV from "../assets/barkV.mp4"
+import movV from "../assets/movV.mp4"
+import sneakV from "../assets/ikomers.mp4"
+
 const sneakerTXT =
   "Application for the purchase of sneakers. Supports payment with QR, MercadoPago and PayPal. It has both a user panel where you can review profile, favorites, shopping cart and purchase history, and an administrator panel with sales statistics, stock, categories and users where to create, search, edit or delete any of the above.";
 const barkTXT =
@@ -31,6 +35,7 @@ export const Work = () => {
       </div>
       <div className={styles.cardsW}>
         <Card
+          video={barkV}
           snapshot={bark}
           text={barkTXT}
           deployURL={barkURL}
@@ -38,6 +43,7 @@ export const Work = () => {
           title="BarkLeaks"
         />
         <Card
+          video={sneakV}
           snapshot={sneaker}
           text={sneakerTXT}
           deployURL={sneakerURL}
@@ -45,6 +51,7 @@ export const Work = () => {
           title="Sneakers E-Commerce"
         />
         <Card
+          video={movV}
           snapshot={movie}
           text={movieTXT}
           deployURL={movieURL}

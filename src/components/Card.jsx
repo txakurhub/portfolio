@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "../styles/Card.module.css";
 
-export const Card = ({ snapshot, text, deployURL, repo, title }) => {
+export const Card = ({ snapshot, text, deployURL, repo, title, video }) => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardInfo}>
         <h2 className={styles.cardTitle}>{title}</h2>
         <div className={styles.cardImg}>
-          <img src={snapshot} alt="" />
+          <video src={video} type="video/mp4" controls></video>
+          {/* <img src={snapshot} alt="" /> */}
         </div>
         <h4 className={styles.cardText}>{text}</h4>
       </div>
