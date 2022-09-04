@@ -1,59 +1,77 @@
 .mainA {
-
     display: flex;
     margin-left: 5rem;
     margin-right: 5rem;
     flex-direction: column;
+    margin-top: 5rem;
+}
+
+#about {
+    margin-top: 12rem;
+    color: transparent;
 }
 
 .titleA {
-    margin-top: 8rem;
-    font-family: 'Michroma', sans-serif;
-    font-size: 3rem;
-    justify-content: center;
-    color: #FFCCCC;
-    margin-bottom: 0%;
+    display: flex;
+    justify-content: end;
+    margin-right: 12rem;
+    margin-top: 6rem;
+    font-family: "Raginy";
+    font-size: 4rem;
+    color: #336699;
+    margin-bottom: -4rem;
 }
 
-.textA {
-    justify-content: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.6rem;
+.textA h4{
+    display: flex;
+    justify-content: end;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
     padding-left: 6rem;
     padding-right: 6rem;
-    color: #FFFFFF;
-}
-.textA h4{
-    margin-top: 0;
+    color: #336699;
 }
 
 .h4H {
     margin-top: 3rem;
     font-size: 3rem;
-    color: #E4ACA6;
+    color: #336699;
     /* margin-bottom: -2rem; */
 }
 
 .h4H:hover {
-    color: #FFFFFF;
+    color: #33669973;
     transition: 300ms;
 }
-.techStack h4{
-    font-family: 'Michroma', sans-serif;
-    font-size: 1.8rem;
-    color: #E4ACA6;
+
+.techStack button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #336699;
     margin-bottom: 1.5rem;
     margin-top: 2rem;
+    stroke-width: 6;
+    border-radius: 3rem;
+    background-color: transparent;
+    border-color: #336699;
+    border-style: solid;
+    height: 2.3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
-.techStack a{
+
+.techStack a {
     text-decoration: none;
 }
+
 .techStack i {
-    color: #FFFFFF;
+    color: #336699;
     font-size: 3rem;
     padding: 1rem;
     text-decoration: none;
 }
+
 .techStack i:hover {
     color: #E4ACA6;
     font-size: 5rem;
@@ -61,4 +79,3 @@
     margin-top: 0;
     transition: 600ms;
 }
-

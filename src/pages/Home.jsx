@@ -12,51 +12,43 @@ import anime from "animejs";
 import Letterize from "letterizejs";
 
 export const Home = () => {
-  window.onload = function(){
-    letterAnim()
-    hoverAnim()
-  }
-  console.log(document.getElementById("home"));
+  // window.onload = function () {
+  //   letterAnim();
+  //   hoverAnim();
+  // };
+
   return (
     <main className={styles.main}>
       <section className={styles.mainH} id="home">
-        <Animated >
-          <h2 className={styles.h2U}>HI, I'M</h2>
-          <div className={styles.h1U}>
-            <h1>LEANDRO</h1>
-          </div>
-          <h1 className={styles.h1D}>PEREYRA</h1> 
-        </Animated>
-        <h2 className={styles.h2D}>A FULL STACK DEVELOPER</h2>
-        {/* <Animated
-          animationIn="flash"
-          animationInDelay={6000}
-          animationInDuration={7500}
-        >
-        </Animated> */}
-        <Animated animationInDelay={9000} animationIn="headShake">
-          <Animated
-            animationInDelay={11000}
-            animationIn="headShake"
-            animationInDuration={2000}
-          >
-            <Animated
-              animationInDelay={13500}
-              animationInDuration={9000}
-              animationIn="headShake"
-            >
-              <a href="#about" className={styles.h4H}>
-                ᐁ
-              </a>
-            </Animated>
-          </Animated>
-        </Animated>
+        <div className={styles.leandro}>
+          <h1>L</h1>
+          <h1>E</h1>
+          <h1>A</h1>
+          <h1>N</h1>
+          <h1>D</h1>
+          <h1 className={styles.r}>R</h1>
+          <h1>O</h1>
+        </div>
+        <div className={styles.pereyra}>
+          <h1>P</h1>
+          <h1>E</h1>
+          <h1 className={styles.r}>R</h1>
+          <h1>E</h1>
+          <h1>Y</h1>
+          <h1 className={styles.r}>R</h1>
+          <h1>A</h1>
+        </div>
+        <button className={styles.fulldiv}>
+          <h2 className={styles.fullstack}>FULL STACK DEVELOPER</h2>
+        </button>
+        <a href="#about" className={styles.flecha}>
+          ᐁ
+        </a>
       </section>
 
       <About />
       <Work />
       <Contact />
-      
     </main>
   );
 };

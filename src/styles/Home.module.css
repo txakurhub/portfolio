@@ -1,96 +1,85 @@
+@font-face {
+    font-family: "Raginy";
+    src: url("../assets/raginyfree-regular.woff2") format("woff2"),
+        url("../assets/raginyfree-regular.woff") format("woff");
+}
+
 .mainH {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 .mainH h1 {
-    font-family: 'Michroma', sans-serif;
-    font-size: 6.5rem;
-    color: #FFFFFF;
-}
-
-.h1U {
+    font-family: "Raginy"; 
+    font-size: 6.8rem;  
+    margin: 0;  
+    font-weight: 800;
+} 
+.leandro {
+    margin-top: 10rem;
     display: flex;
-    margin-bottom: -3.3rem;
-    margin-top: -7rem;
+    color: #FFF5F1;
+    margin-bottom: -1rem;
 }
-
-.h1D {
-    font-family: 'Michroma', sans-serif;
-    font-size: 7rem;
-    color: #FFFFFF;
-    margin-bottom: 0.3rem;
-    margin-top: -9rem;
+.pereyra {
+    display: flex;
+    color: #FFF5F1;
+    margin-top: -0.5rem;
+    margin-bottom: -.4rem;
 }
-
-.h1U h1:hover {
+.r{
+    -webkit-text-stroke: 0.1rem #FFF5F1;
+    color: transparent;
+}
+.leandro:hover {
     color: #FFFFFF;
-
     transition: 300ms;
+    -webkit-text-stroke: 0.1rem #FFF5F1;
+    color: transparent;
 }
-
-.h2U {
-    font-family: 'Michroma', sans-serif;
-    font-size: 2rem;
-    color: #E4ACA6;
-    margin-bottom: -2rem;
-    margin-top: 5rem;
-}
-
-.h2D {
-    font-family: 'Michroma', sans-serif;
-    font-size: 2rem;
-    color: #E4ACA6;
-    margin-top: -1.5rem;
+.fulldiv{
+    stroke-width: 6;
+    border-radius: 3rem;
+    background-color: transparent; 
+    border-color: #FFF5F1;
+    border-style:solid;
+    height: 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 7rem;
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 100%;
-
+    /* 
+    color: transparent;
+    height: 2rem;
+    width: 18rem;
+    */
 }
-
-.h4H {
-    margin-top: 7rem;
-    font-size: 3rem;
-    color: #E4ACA6;
-    width: 8rem;
+.fullstack {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #FFF5F1;
 }
-
-.h4H:hover {
-    color: #FFFFFF;
-    transition: 300ms;
-    background-color: rgba(0, 0, 0, 0.363);
-    border-radius: 100%;
-    width: 8rem;
-}
-
 .mainH h1:hover {
     color: #E4ACA6;
     transition: 300ms;
 
 }
-
-.mainH h2:hover {
+.fulldiv:hover {
     color: #FFFFFF;
     transition: 300ms;
+    background-color: #e4aca63a;
 }
-
-
-/* Animation */
-/* .h2D {
-    animation: animated-text 2.5s steps(30, end) 1s 3 normal both;
-} */
-
-/* text animation */
-
-@keyframes animated-text {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 38rem;
-    }
+.flecha {
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFF5F1;
+    margin-bottom: 5rem;
+}
+.flecha:hover{
+    color: #fff5f177;
+    transition: 300ms;
 }

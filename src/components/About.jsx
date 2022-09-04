@@ -3,8 +3,9 @@ import styles from "../styles/About.module.css";
 
 export const About = () => {
   return (
-    <section className={styles.mainA} id="about">
-      <div className={styles.titleA}>
+    <section className={styles.mainA} >
+      <div id="about" >.</div>
+      <div className={styles.titleA} >
         <h2>ABOUT</h2>
       </div>
       <div className={styles.textA}>
@@ -26,7 +27,7 @@ export const About = () => {
         </h4>
       </div>
       <div className={styles.techStack}>
-        <h4>SOME OF THE TECHNOLOGIES I WORK WITH ARE</h4>
+        <button>SOME OF THE TECHNOLOGIES I WORK WITH ARE</button>
         <a href="https://www.javascript.com/">
           <i className="devicon-javascript-plain"></i>
         </a>
