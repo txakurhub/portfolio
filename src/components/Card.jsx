@@ -5,7 +5,15 @@ export const Card = ({ snapshot, text, deployURL, repo, title, video }) => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardImg}>
-        <video src={video} type="video/mp4" controls></video>
+        <video
+          muted
+          loop="true"
+          autoplay="autoplay"
+          controls="controls"
+          id="vid"
+        >
+          <source src={video} type="video/mp4" />
+        </video>
         {/* <img src={snapshot} alt="" /> */}
       </div>
       <div className={styles.cardInfo}>

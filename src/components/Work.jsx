@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "./Card";
 import styles from "../styles/Work.module.css";
-import { Slides } from "./Slides";
+import { Slider } from "./Slider";
 
 
 export const Work = () => {
@@ -16,7 +16,7 @@ export const Work = () => {
         </div>
       </div>
       <div className={styles.cardsW}>
-      <Slides/>
+      <Slider/>
       </div>
       <a href="#contact" className={styles.h4H}>
         ᐁ

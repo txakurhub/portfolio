@@ -1,7 +1,7 @@
 .cardContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -28,8 +28,9 @@
     font-size: 3rem;
     margin-bottom: 0;
 }
-
+.cardText h4 { align-self: flex-start;}
 .cardText {
+    align-self: flex-start;
     width: 25rem;
     color: #336699;
     font-size: 0.8rem;
