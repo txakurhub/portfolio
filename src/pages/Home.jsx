@@ -4,18 +4,13 @@ import { About } from "../components/About";
 import { Work } from "../components/Work";
 import { Contact } from "../components/Contact";
 import styles from "../styles/Home.module.css";
-
-import { hoverAnim } from "../utils/hover.js";
 import { Greetings } from "../components/Greetings";
 
 export const Home = () => {
-  
-  // window.onload = hoverAnim;
-
   return (
     <main className={styles.main} id="home">
       <section className={styles.mainH}>
-        <div className={styles.name} >
+        <div className={styles.name}>
           <div className={styles.leandro}>
             <span className={styles.letter}>L</span>
             <span className={styles.letter}>E</span>
@@ -35,7 +30,7 @@ export const Home = () => {
             <span className={styles.letter}>A</span>
           </div>
         </div>
-       <Greetings/>
+        <Greetings />
 
         <a href="#about" className={styles.flecha}>
           ᐁ

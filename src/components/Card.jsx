@@ -1,7 +1,15 @@
 import React from "react";
 import styles from "../styles/Card.module.css";
 
-export const Card = ({ snapshot, text, deployURL, repo, title, video, key }) => {
+export const Card = ({
+  snapshot,
+  text,
+  deployURL,
+  repo,
+  title,
+  video,
+  key,
+}) => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardImg}>

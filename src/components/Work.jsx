@@ -3,7 +3,6 @@ import { Card } from "./Card";
 import styles from "../styles/Work.module.css";
 import { Slider } from "./Slider";
 
-
 export const Work = () => {
   return (
     <section className={styles.mainW} id="work">
@@ -16,7 +15,7 @@ export const Work = () => {
         </div>
       </div>
       <div className={styles.cardsW}>
-      <Slider/>
+        <Slider />
       </div>
       <a href="#contact" className={styles.h4H}>
         ᐁ
