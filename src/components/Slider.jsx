@@ -30,6 +30,7 @@ export const Slider = () => {
           return (
             <SwiperSlide>
               <Card
+                key={projects.indexOf(p)}
                 deployURL={p.deployURL}
                 repo={p.repo}
                 text={p.text}

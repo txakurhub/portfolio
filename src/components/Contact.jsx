@@ -12,7 +12,9 @@ export const Contact = () => {
     <section className={styles.mainC} id="contact">
       <div className={styles.titleC}>
         <h2 className={styles.contacth2}>CONTACT</h2>
+
       </div>
+
       <div className={styles.cardsC}>
         <ContactCard
           img="logo-github"

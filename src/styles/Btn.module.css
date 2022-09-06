@@ -3,7 +3,7 @@
     padding: 0px 20px;
     color: #FFCCCC;
     font-size: 4rem;
-    background-color: #191919;
+    background-color: #336699;
     border: 0;
     border-radius: 100%;
     text-decoration: none;
@@ -16,14 +16,14 @@
 .up:hover {
     color: #FFFFFF;
     transition: 300ms;
-    background-color: black;
+    background-color: #33669980;
 }
 .top{
     padding: 0px 20px;
     /* padding-top: 0; */
     color: #FFCCCC;
     font-size: 4rem;
-    background-color: #191919;
+    background-color: #336699;
     border: 0;
     border-radius: 100%;
     text-decoration: none;

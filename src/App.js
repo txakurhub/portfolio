@@ -4,7 +4,6 @@ import { Navbar } from "./components/Navbar";
 import { Btn } from "./components/Btn";
 
 function App() {
-
   return (
     <div className="App">
       <Navbar />
