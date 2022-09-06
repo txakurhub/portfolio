@@ -4,59 +4,42 @@ import { About } from "../components/About";
 import { Work } from "../components/Work";
 import { Contact } from "../components/Contact";
 import styles from "../styles/Home.module.css";
-// import { Name } from "../components/Name";
-import { Animated } from "react-animated-css";
-import { letterAnim } from "../utils/letter";
-import { hoverAnim } from "../utils/hover";
-import anime from "animejs";
-import Letterize from "letterizejs";
+import { Greetings } from "../components/Greetings";
 
 export const Home = () => {
-  window.onload = function(){
-    letterAnim()
-    hoverAnim()
-  }
-  console.log(document.getElementById("home"));
   return (
-    <main className={styles.main}>
-      <section className={styles.mainH} id="home">
-        <Animated >
-          <h2 className={styles.h2U}>HI, I'M</h2>
-          <div className={styles.h1U}>
-            <h1>LEANDRO</h1>
+    <main className={styles.main} id="home">
+      <section className={styles.mainH}>
+        <div className={styles.name}>
+          <div className={styles.leandro}>
+            <span className={styles.letter}>L</span>
+            <span className={styles.letter}>E</span>
+            <span className={styles.letter}>A</span>
+            <span className={styles.letter}>N</span>
+            <span className={styles.letter}>D</span>
+            <span className={styles.r}>R</span>
+            <span className={styles.letter}>O</span>
           </div>
-          <h1 className={styles.h1D}>PEREYRA</h1>
-        </Animated>
-        <h2 className={styles.h2D}>A FULL STACK DEVELOPER</h2>
-        {/* <Animated
-          animationIn="flash"
-          animationInDelay={6000}
-          animationInDuration={7500}
-        >
-        </Animated> */}
-        <Animated animationInDelay={9000} animationIn="headShake">
-          <Animated
-            animationInDelay={11000}
-            animationIn="headShake"
-            animationInDuration={2000}
-          >
-            <Animated
-              animationInDelay={13500}
-              animationInDuration={9000}
-              animationIn="headShake"
-            >
-              <a href="#about" className={styles.h4H}>
-                ᐁ
-              </a>
-            </Animated>
-          </Animated>
-        </Animated>
+          <div className={styles.pereyra}>
+            <span className={styles.letter}>P</span>
+            <span className={styles.letter}>E</span>
+            <span className={styles.r}>R</span>
+            <span className={styles.letter}>E</span>
+            <span className={styles.letter}>Y</span>
+            <span className={styles.r}>R</span>
+            <span className={styles.letter}>A</span>
+          </div>
+        </div>
+        <Greetings />
+
+        <a href="#about" className={styles.flecha}>
+          ᐁ
+        </a>
       </section>
 
       <About />
       <Work />
       <Contact />
-      
     </main>
   );
 };

@@ -1,17 +1,19 @@
 .mainN {
     display: flex;
     position: fixed;
-    background-color: #191919;
-    height: 5rem;
     justify-content: center;
+    /* align-items: center; */
     width: 100%;
 }
 
 .itemsN {
+    margin-top: 2rem;
+    height: 2.6rem;
+    background-color: #336699;
     display: flex;
     justify-content: center;
-
-
+    align-items: center;
+    border-radius:3rem ;
 }
 
 .itemN {
@@ -19,7 +21,7 @@
     padding: 1rem;
     margin: 2rem;
     color: #FFCCCC;
-    font-family: 'Michroma', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .itemN:hover{

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styles from "../styles/Btn.module.css";
 
 export const Btn = () => {
-  const btnUp = document.getElementById("btnUp");
   const [state, setState] = useState(false);
 
   window.onscroll = () => {
@@ -13,7 +12,11 @@ export const Btn = () => {
     }
   };
   return (
-    <a href="#home" id="btnUp" className={state === true ? styles.up : styles.top}>
+    <a
+      href="#home"
+      id="btnUp"
+      className={state === true ? styles.up : styles.top}
+    >
       ᐃ
     </a>
   );

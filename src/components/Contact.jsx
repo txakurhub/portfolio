@@ -1,7 +1,7 @@
 import React from "react";
 import { ContactCard } from "./ContactCard";
-import cv from "../assets/CV - LEANDRO PEREYRA.pdf"
-import styles from "../styles/Contact.module.css"
+import cv from "../assets/CV - LEANDRO PEREYRA.pdf";
+import styles from "../styles/Contact.module.css";
 
 const githubProfile = "https://github.com/txakurhub";
 const linkedinProfile = "https://www.linkedin.com/in/leandro-pereyra";
@@ -13,6 +13,7 @@ export const Contact = () => {
       <div className={styles.titleC}>
         <h2 className={styles.contacth2}>CONTACT</h2>
       </div>
+
       <div className={styles.cardsC}>
         <ContactCard
           img="logo-github"
@@ -29,7 +30,11 @@ export const Contact = () => {
           link={`mailto:${email}`}
           description={email}
         />
-        <ContactCard img="document-text-outline" link={cv} description="Resume" />
+        <ContactCard
+          img="document-text-outline"
+          link={cv}
+          description="Resume"
+        />
       </div>
     </section>
   );

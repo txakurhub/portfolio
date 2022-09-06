@@ -1,60 +1,59 @@
 .cardContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    width: 24rem;
-    height: 35rem;
-    margin: 2rem;
-    background-color: #8e8d8d0f;
-    border-radius: 5%;
-}
-.cardContainer:hover{
-    background-color: #1A1A1A;
-    transition: 300ms;
-}
-.cardInfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-}
-.cardTitle{
-    color: #ffffffa0;
-    font-family: 'Michroma', sans-serif;
-    font-size: 1.45rem;
-}
-.cardImg video{
-    object-fit: contain;
-    width: 24rem;
-    height: 15rem;
-    margin-bottom: -1rem;
-}
-.cardText{
-    display: flex;
+    flex-direction: row;
     justify-content: center;
-    width: 22rem;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.1rem;
-    color: #b4b4b4;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
-.cardLinks{
-    margin-top: -1rem;
+
+.cardImg video {
+    object-fit: contain;
+    margin-top: 0;
+    height: 16rem;
+    border-radius: 2rem;
+}
+
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3rem;
+    padding-right: 6rem;
+}
+
+.cardTitle {
+    color: #336699;
+    font-family: "Raginy";
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.cardText h4 { align-self: flex-start;}
+.cardText {
+    align-self: flex-start;
+    width: 25rem;
+    color: #336699;
+    font-size: 0.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cardLinks {
+    margin-top: 0rem;
     padding-bottom: 1rem;
 }
+
 .cardLinks a {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
 .cardLinks ion-icon {
-    font-size: 3.5rem;
-    color:#707070b9;
+    font-size: 3rem;
+    color: #E8B0AA
 }
 
 .cardLinks ion-icon:hover {
     /* font-size: 3.6rem; */
-    color:#d6d6d693;
+    color: #336699;
     transition: 300ms;
 }
