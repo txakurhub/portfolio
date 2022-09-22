@@ -8,7 +8,7 @@ const Card = ({ deployURL, repo, text, video, snapshot, title, tech }) => {
           autoplay="autoplay"
           controls="controls"
           id="vid"
-          class="h-96 mb-2"
+          class="lg:h-96 sm:mb-2"
         >
           <source src={video} type="video/mp4" />
         </video>
