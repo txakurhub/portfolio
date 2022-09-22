@@ -14,7 +14,7 @@ const Header = () => {
             </a>
           </div>
              
-          <div class="menu">
+          <div class="menu sm:hidden">
             <nav class="burger-menu">
               <input class="menu-check" type="checkbox" name="menu-check" value="" id="menu-check"/>
               <label class="menu-open" for="menu-check">
