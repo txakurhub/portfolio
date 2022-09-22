@@ -1,4 +1,41 @@
+import emailjs from "emailjs-com"
+import { useState } from "react";
+const Swal = require('sweetalert2')
+
 const Hire = () => {
+	const [state, setState] = useState({
+		name: "",
+		email: "",
+		message: "",
+	})
+	const handleChange = (e) => {
+		setState({
+		  ...state,
+		  [e.target.name]: e.target.value
+		});
+	  };
+
+
+	const sendMessage = (e) => {
+		e.preventDefault()
+		emailjs.sendForm('service_ew0zxeg', 'template_u0xvu1k', e.target, '_9wk7jfdyVQ2D1HNw').then(res => {
+			Swal.fire({
+				position: 'top-end',
+				icon: 'success',
+				title: 'Message sent successfully',
+				showConfirmButton: false,
+				timer: 1500
+			  });
+			  console.log(res);
+			  setState({
+				name: "",
+				email: "",
+				message: "",
+			})
+		})
+
+	}
+
     return (
             <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full xl:ml-8">
 			<section class="w-full">
@@ -6,21 +43,21 @@ const Hire = () => {
 				<p id="hire" class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
 
 				<div class="w-full grid lg:grid-cols-2 gap-4 lg:gap-32 mt-18">
-					<div class="space-y-8">
+					<form class="space-y-8" onSubmit={sendMessage}>
 						<div>
 							<label class="text-white block mb-2 text-xl font-bold">Name</label>
-							<input class="w-full border border-input-border bg-input px-3 py-2"/>
+							<input class="w-full border border-input-border bg-input px-3 py-2" type="text" name="name" onChange={handleChange} value={state.name}/>
 						</div>
 						<div>
 							<label class="text-white block mb-2 text-xl font-bold">Email</label>
-							<input type="email" class="w-full border border-input-border bg-input px-3 py-2"/>
+							<input type="email" name="email"class="w-full border border-input-border bg-input px-3 py-2" onChange={handleChange} value={state.email}/>
 						</div>
 						<div>
 							<label class="text-white block mb-2 text-xl font-bold">Message</label>
-							<textarea type="email" class="w-full border border-input-border bg-input px-3 py-2 h-56 resize-none"></textarea>
+							<textarea type="text" name="message" class="w-full border border-input-border bg-input px-3 py-2 h-56 resize-none" onChange={handleChange} value={state.message}></textarea>
 						</div>
-						<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
-					</div>
+						<button class="px-6 py-2 bg-theme text-white font-bold" type="sumbit">Send it!</button>
+					</form>
 
 					<div class="mt-12">
 						{/* <!-- Contact info --> */}

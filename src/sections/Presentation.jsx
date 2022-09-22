@@ -43,7 +43,7 @@ const Presentation = () => {
             <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
               Building<br></br> beautiful web experiences.
             </h1>
-            <div class="w-full flex justify-center md:justify-start">
+            <div class="w-full flex justify-center md:justify-start animate-pulse">
               <a href="#work" class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
                 <div>
                   <svg
