@@ -14,7 +14,7 @@ const Header = () => {
             </a>
           </div>
              
-          <div class="menu sm:hidden">
+          <div class="menu md:hidden">
             <nav class="burger-menu">
               <input class="menu-check" type="checkbox" name="menu-check" value="" id="menu-check"/>
               <label class="menu-open" for="menu-check">
@@ -26,7 +26,7 @@ const Header = () => {
               <ul class="menu-options">            
                 <li><a href="#about">About</a></li>
                 <li><a href="#work">My work</a></li>
-                <li><a href="mailto:me.leandrop@gmail.com"><button class="px-6 py-2 bg-theme font-bold">Let's talk!</button></a></li>
+                <li><a href="mailto:me.leandrop@gmail.com"><button class="px-2 h-15 bg-theme font-bold">Let's talk!</button></a></li>
               </ul>
             </nav>
           </div>
