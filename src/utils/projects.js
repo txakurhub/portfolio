@@ -3,6 +3,7 @@ import movieIMG from "../assets/homemovies.jpg";
 import sneakerIMG from "../assets/homesneakers.jpg";
 import geosphereIMG from "../assets/geosphere.jpg";
 
+
 import barkV from "../assets/barkV.mp4";
 import movV from "../assets/movV.mp4";
 import sneakV from "../assets/ikomers.mp4";
