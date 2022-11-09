@@ -2,6 +2,7 @@ import barkIMG from "../assets/homebark.jpg";
 import movieIMG from "../assets/homemovies.jpg";
 import sneakerIMG from "../assets/homesneakers.jpg";
 import geosphereIMG from "../assets/geosphere.jpg";
+import envitedIMG from "../assets/event1.jpg"
 
 
 import barkV from "../assets/barkV.mp4";
@@ -18,7 +19,7 @@ let sneaker = {
   video: sneakV,
   tech: ["Javascript", "React", "Redux", "Tailwind", "Node", "Express", "Firebase", "PostgreSQL", "Sequelize"],
   snapshot: sneakerIMG,
-  title: "E-Commerce",
+  title: "Sneakers E-Commerce",
 };
 
 let bark = {
@@ -49,8 +50,16 @@ let globe = {
   title: "GeoSphere",
 };
 
+let envited = {
+  repo: "https://github.com/txakurhub/envited-technical-assessment",
+  text: "Technical Assessment to test front end skill (React js, CSS, HTML), creativity and ability to duplicate Figma designs in a web application under time constraints, code quality, and attention to detail.",
+  video: envitedIMG,
+  tech: ["Javascript", "React", "TailwindCSS", "Figma", "CSS", "HTML"],
+  title: "Envited Challenge"
+}
 
 
-let projects = [sneaker, globe, bark, movie];
+
+let projects = [sneaker, globe, bark, movie, envited];
 
 export default projects;
