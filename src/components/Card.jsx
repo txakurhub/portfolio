@@ -5,6 +5,7 @@ const Card = ({ deployURL, repo, text, video, snapshot, title, tech }) => {
         ? <img
         src={snapshot}
         class="lg:h-96 sm:mb-2"
+        alt={title}
         ></img>
         :<video
           muted
@@ -21,7 +22,7 @@ const Card = ({ deployURL, repo, text, video, snapshot, title, tech }) => {
         <div class="container mt-1 flex flex-col justify-center items-center ">
 
         <h4 class="max-w-3xl text-2xl font-bold text-theme">{title}</h4>
-        <h6 class="mt-3 text-base">{text}</h6>
+        <h6 class="mt-3 text-base text-center">{text}</h6>
         </div>
         <div class="container mt-1 flex flex-wrap justify-center items-center gap-3 text-theme">
         {tech && tech.map(t=> {
