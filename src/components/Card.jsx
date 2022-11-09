@@ -1,8 +1,12 @@
 const Card = ({ deployURL, repo, text, video, snapshot, title, tech }) => {
   return (
     <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full flex-col">
-      <div>
-        <video
+      <div>{video === "" 
+        ? <img
+        src={snapshot}
+        class="lg:h-96 sm:mb-2"
+        ></img>
+        :<video
           muted
           loop="true"
           autoplay="autoplay"
@@ -11,7 +15,7 @@ const Card = ({ deployURL, repo, text, video, snapshot, title, tech }) => {
           class="lg:h-96 sm:mb-2"
         >
           <source src={video} type="video/mp4" />
-        </video>
+        </video>}
       </div>
       <div class="container w-5/5 ml-4">
         <div class="container mt-1 flex flex-col justify-center items-center ">

@@ -51,9 +51,10 @@ let globe = {
 };
 
 let envited = {
+  video: "",
   repo: "https://github.com/txakurhub/envited-technical-assessment",
-  text: "Technical Assessment to test front end skill (React js, CSS, HTML), creativity and ability to duplicate Figma designs in a web application under time constraints, code quality, and attention to detail.",
-  video: envitedIMG,
+  text: "Technical Assessment to test front end skill (React js, CSS, HTML), creativity and ability to duplicate Figma designs in a web application, code quality, and attention to detail under time constraints.",
+  snapshot: envitedIMG,
   tech: ["Javascript", "React", "TailwindCSS", "Figma", "CSS", "HTML"],
   title: "Envited Challenge"
 }
