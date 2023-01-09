@@ -18,8 +18,17 @@ body {
 
 }
 
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
   position: relative;
+}
+
+@media (min-width: 700px) {
+  .swiper-pagination-bullets {
+    margin-top: 3rem;
+  }
 }
 
 /* h1 {
