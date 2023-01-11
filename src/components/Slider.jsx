@@ -28,7 +28,7 @@ export const Slider = () => {
       >
         {projects.map((p) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={projects.indexOf(p)}>
               <Card
                 key={projects.indexOf(p)}
                 deployURL={p.deployURL}
