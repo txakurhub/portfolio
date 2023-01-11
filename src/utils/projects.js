@@ -72,6 +72,7 @@ let globe = {
 };
 
 let gorent = {
+  deployURL:"https://expo.dev/@txakur/go-rent?serviceType=classic&distribution=expo-go",
   video: gorentV,
   repo: "https://github.com/txakurhub/GoRent",
   text: "Real Estate Mobile App",
