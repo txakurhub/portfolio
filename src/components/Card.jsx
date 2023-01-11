@@ -27,7 +27,7 @@ const Card = ({ deployURL, repo, text, video, snapshot, title, tech }) => {
         <div class="container mt-1 flex flex-wrap justify-center items-center gap-3 text-theme">
         {tech && tech.map(t=> {
           return (
-            <p key={tech.indexOf(t)} class="text-sm" key={tech.indexOf(t)}>{t}</p>
+            <p class="text-sm" key={tech.indexOf(t)}>{t}</p>
             )
           })}
           </div>
