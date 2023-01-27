@@ -11,10 +11,9 @@ module.exports = {
         badge: "#3F3F51",
         "input-border": "#565666",
         input: "#2A2A35",
-        // 'gradient': ""
       },
       fontFamily: {
-        poppins: ["'Poppins'", "sans-serif"],
+        press: ["press", "cursive"],
       },
     },
   },

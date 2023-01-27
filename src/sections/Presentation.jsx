@@ -43,13 +43,13 @@ const Presentation = () => {
 
           <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-lg mt-0 md:my-36">
             <h1 class="font-bold text-4xl md:text-6xl lg:text-7xl  md:text-left ">
-              <div className="flex flex-wrap text-rotate text-rotate-one">
+              <div className="flex flex-wrap text-rotate text-rotate-one opacity-75 ">
                 Let's transform <br className="md:hidden"></br> your ideas
               </div>
-              <div class="text-rotate text-rotate-two">
+              <div class="text-rotate text-rotate-two  opacity-75 ">
                 into an effective
               </div>
-              <div className="text-rotate text-rotate-three">
+              <div className="text-rotate text-rotate-three  opacity-75  ">
                 web experience
               </div>
             </h1>
