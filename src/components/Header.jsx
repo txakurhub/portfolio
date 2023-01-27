@@ -6,33 +6,48 @@ const Header = () => {
         <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
           <div class="text-lg font-bold">Leandro Pereyra</div>
           <div class="hidden md:flex space-x-12 items-center">
-
             <a href="#about">About</a>
             <a href="#work">My work</a>
             <a href="mailto:me.leandrop@gmail.com">
               <button class="px-6 py-2 bg-theme font-bold">Let's talk!</button>
             </a>
           </div>
-             
+
           <div class="menu md:hidden">
             <nav class="burger-menu">
-              <input class="menu-check" type="checkbox" name="menu-check" value="" id="menu-check"/>
+              <input
+                class="menu-check"
+                type="checkbox"
+                name="menu-check"
+                value=""
+                id="menu-check"
+              />
               <label class="menu-open" for="menu-check">
                 <span class="burger1"></span>
                 <span class="burger2"></span>
                 <span class="burger3"></span>
               </label>
 
-              <ul class="menu-options">            
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">My work</a></li>
-                <li><a href="mailto:me.leandrop@gmail.com"><button class="px-2 h-15 bg-theme font-bold">Let's talk!</button></a></li>
+              <ul class="menu-options">
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#work">My work</a>
+                </li>
+                <li>
+                  <a href="mailto:me.leandrop@gmail.com">
+                    <button class="px-2 h-15 bg-theme font-bold">
+                      Let's talk!
+                    </button>
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
         </div>
-
       </header>
+      <nav role="navigation"></nav>
     </div>
   );
 };

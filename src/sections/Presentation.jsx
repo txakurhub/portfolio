@@ -41,11 +41,11 @@ const Presentation = () => {
             </div>
           </nav>
 
-          <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+          <div class="flex flex-col lg:ml-20 justify-center md:justify-start max-w-full mt-0 md:my-36">
             <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
-              Let's create<br></br>
+              Let's transform your ideas
               <div class="flex flex-row justify-center md:justify-start">
-                a <h1 class="pl-4">beautiful</h1>
+                into an effective
               </div>
               web experience
             </h1>
