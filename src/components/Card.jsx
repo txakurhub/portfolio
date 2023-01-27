@@ -9,7 +9,7 @@ const Card = ({ deployURL, repo, text, video, snapshot, title, tech }) => {
         ></img>
         :<video
           muted
-          loop="true"
+          loop={true}
           autoplay="autoplay"
           controls="controls"
           id="vid"

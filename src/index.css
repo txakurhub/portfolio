@@ -413,6 +413,36 @@ body {
   }
 }
 
+.text-rotate {
+  @apply w-0 whitespace-nowrap overflow-hidden;
+}
+
+
+/* @apply evitar la repiticion de clases para diferentes etiquetas */
+
+/* Cambiar a talwind, animation text rotate */
+.text-rotate-one {
+  animation: typing 2s steps(38) 0s 1 normal both;
+}
+
+.text-rotate-two {
+  animation: typing 1.5s steps(38) 1.5s 1 normal both;
+}
+
+.text-rotate-three {
+  animation: typing 1.5s steps(38) 2.5s 1 normal both;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+    border-right: transparent;
+  }
+}
 
 /*------------------------------------------------------------------*/
 

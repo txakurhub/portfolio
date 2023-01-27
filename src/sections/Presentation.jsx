@@ -41,13 +41,17 @@ const Presentation = () => {
             </div>
           </nav>
 
-          <div class="flex flex-col lg:ml-20 justify-center md:justify-start max-w-full mt-0 md:my-36">
-            <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
-              Let's transform your ideas
-              <div class="flex flex-row justify-center md:justify-start">
+          <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-lg mt-0 md:my-36">
+            <h1 class="font-bold text-4xl md:text-6xl lg:text-7xl  md:text-left ">
+              <div className="flex flex-wrap text-rotate text-rotate-one">
+                Let's transform <br className="md:hidden"></br> your ideas
+              </div>
+              <div class="text-rotate text-rotate-two">
                 into an effective
               </div>
-              web experience
+              <div className="text-rotate text-rotate-three">
+                web experience
+              </div>
             </h1>
             <div class="w-full flex justify-center md:justify-start animate-pulse">
               <a
