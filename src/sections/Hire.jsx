@@ -44,7 +44,7 @@ const Hire = () => {
   return (
     <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full xl:ml-8">
       <section class="w-full">
-        <h2 class="secondary-title">Hire me</h2>
+        <h2 class="secondary-title">Send me a message</h2>
         <p id="hire" class="section-paragraph">
           Feel free to to contact me any time, through any method below.
         </p>
