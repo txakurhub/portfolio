@@ -13,7 +13,7 @@ body {
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Raleway', sans-serif;
 }
@@ -31,12 +31,7 @@ body {
   }
 }
 
-/* h1 {
-  font-size: 72px;
-  background: -webkit-linear-gradient(white, #A3A3FF, var(--swiper-theme-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
+
 
 .left-50 {
   left: 50%
@@ -426,11 +421,11 @@ body {
 }
 
 .text-rotate-two {
-  animation: typing 1.5s steps(38) 1.5s 1 normal both;
+  animation: typing 1.5s steps(38) 2.5s 1 normal both;
 }
 
 .text-rotate-three {
-  animation: typing 1.5s steps(38) 2.5s 1 normal both;
+  animation: typing 1.5s steps(38) 3.5s 1 normal both;
 }
 
 @keyframes typing {
