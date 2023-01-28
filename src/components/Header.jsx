@@ -2,7 +2,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <header className="py-6" id="home">
+      <header className="py-6 z-100" id="home">
         <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
           <div className="text-lg font-bold">Leandro Pereyra</div>
           <div className="hidden md:flex space-x-12 items-center">
