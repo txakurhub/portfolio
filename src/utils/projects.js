@@ -5,6 +5,7 @@ import sneakerIMG from "../assets/homesneakers.jpg";
 import geosphereIMG from "../assets/geosphere.jpg";
 import envitedIMG from "../assets/event1.jpg";
 import gorentIMG from "../assets/gorent.jpg";
+import gravityIMG from "../assets/gravity.png";
 
 // VIDEOS
 import barkV from "../assets/barkV.mp4";
@@ -12,6 +13,7 @@ import movV from "../assets/movV.mp4";
 import sneakV from "../assets/ikomers.mp4";
 import geosphereV from "../assets/geosphereV.mp4";
 import gorentV from "../assets/gorent.mp4";
+import gravityV from "../assets/gravityV.mp4";
 
 // OBJ
 let sneaker = {
@@ -72,7 +74,8 @@ let globe = {
 };
 
 let gorent = {
-  deployURL:"https://expo.dev/@txakur/go-rent?serviceType=classic&distribution=expo-go",
+  deployURL:
+    "https://expo.dev/@txakur/go-rent?serviceType=classic&distribution=expo-go",
   video: gorentV,
   repo: "https://github.com/txakurhub/GoRent",
   text: "Real Estate Mobile App",
@@ -101,6 +104,15 @@ let envited = {
   title: "Envited Challenge",
 };
 
-let projects = [sneaker, globe, bark, movie, gorent, envited];
+let gravity = {
+  video: gravityV,
+  repo: "Private",
+  text: "Front-end development for the website, utilizing React to create Figma-based components and styling them with TailwindCSS. The result is a fully responsive website.",
+  snapshot: gravityIMG,
+  tech: ["Javascript", "React", "TailwindCSS", "Figma", "CSS", "HTML"],
+  title: "Gravity Web Page",
+};
+
+let projects = [gravity, sneaker, gorent, globe, envited, movie, bark];
 
 export default projects;
