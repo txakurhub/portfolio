@@ -33,7 +33,7 @@ const Card = ({ deployURL, repo, text, video, snapshot, title, tech }) => {
           </div>
         <div class="container mt-3 flex justify-center gap-5 items-center">
          
-        <a href={repo}><i class="devicon-github-original text-3xl"></i></a>
+        <a href={repo || "Private Repository"}><i class="devicon-github-original text-3xl"></i></a>
         <a href={deployURL}><ion-icon name="link-outline" size="large"></ion-icon></a>
         </div>
       </div>

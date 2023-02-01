@@ -66,7 +66,7 @@ let movie = {
 let globe = {
   deployURL: "https://geosphere.vercel.app/",
   repo: "https://github.com/txakurhub/GeoSphere",
-  text: "Experience data visualization like never before with our Geosphere projection. Explore the regions, economies, incomes, and populations of countries in an interactive and engaging manner.",
+  text: "Experience data visualization like never before with this Geosphere projection. Explore the regions, economies, incomes, and populations of countries in an interactive and engaging manner.",
   video: geosphereV,
   tech: ["Javascript", "React", "D3", "CSS", "HTML"],
   snapshot: geosphereIMG,
@@ -107,7 +107,6 @@ let envited = {
 let gravity = {
   deployURL: "https://www.agenciagravity.com/",
   video: gravityV,
-  repo: "Private",
   text: "Front-end development for the website, utilizing React to create Figma-based components and styling them with TailwindCSS. The result is a fully responsive website.",
   snapshot: gravityIMG,
   tech: ["Javascript", "React", "TailwindCSS", "Figma", "CSS", "HTML"],
