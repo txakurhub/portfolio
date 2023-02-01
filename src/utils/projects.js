@@ -5,7 +5,7 @@ import sneakerIMG from "../assets/homesneakers.jpg";
 import geosphereIMG from "../assets/geosphere.jpg";
 import envitedIMG from "../assets/event1.jpg";
 import gorentIMG from "../assets/gorent.jpg";
-import gravityIMG from "../assets/gravity.png";
+import gravityIMG from "../assets/gravity.PNG";
 
 // VIDEOS
 import barkV from "../assets/barkV.mp4";
