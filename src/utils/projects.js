@@ -105,6 +105,7 @@ let envited = {
 };
 
 let gravity = {
+  deployURL: "https://www.agenciagravity.com/",
   video: gravityV,
   repo: "Private",
   text: "Front-end development for the website, utilizing React to create Figma-based components and styling them with TailwindCSS. The result is a fully responsive website.",
