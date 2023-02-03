@@ -108,7 +108,7 @@ const Hire = () => {
             {/* <!-- Socials --> */}
             <div class="flex mt-20 space-x-6">
               {/* <!-- Linkedin --> */}
-              <a href="https://www.linkedin.com/in/leandro-pereyra/">
+              <a href="https://www.linkedin.com/in/leandro-pereyra/" class="hover:opacity-50 hover:duration-500">
                 <svg class="w-8 h-8  lg:w-12 lg:h-12" viewBox="0 0 128 128">
                   <path
                     fill="#0076b2"
@@ -121,7 +121,7 @@ const Hire = () => {
                 </svg>
               </a>
               {/* <!-- Github --> */}
-              <a href="https://www.github.com/txakurhub">
+              <a href="https://www.github.com/txakurhub" class="hover:opacity-50 hover:duration-500">
                 <i class="devicon-github-original text-white text-5xl"></i>
               </a>
             </div>
