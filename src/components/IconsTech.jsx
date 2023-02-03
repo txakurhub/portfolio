@@ -1,6 +1,6 @@
 const IconsTech = () => {
   return (
-    <div class="flex flex-wrap gap-6 mt-6 items-center max-w-2xl ">
+    <div class="flex flex-wrap gap-6 mt-6 items-center max-w-2xl card">
       <a class="transition ease-in-out delay-60 hover:-translate-y-1 hover:scale-150 duration-300" href="https://www.javascript.com/">
         <i className="devicon-javascript-plain text-theme text-6xl hover:text-selected-text duration-400"  ></i>
       </a>

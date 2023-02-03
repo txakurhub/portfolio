@@ -24,6 +24,17 @@ const Home = () => {
   window.addEventListener("scroll", () => {
     updateList();
   });
+
+  window.onscroll = function () {
+    const cards = document.querySelectorAll(".card");
+    const scrollPosition = window.scrollY + window.innerHeight;
+    cards.forEach((card) => {
+      const cardPosition = card.offsetTop + card.offsetHeight / 2;
+      if (scrollPosition > cardPosition) {
+        card.classList.add("card-visible");
+      }
+    });
+  };
   return (
     <main class="mb-24">
       <Presentation />

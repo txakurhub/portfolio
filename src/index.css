@@ -31,6 +31,16 @@ body {
   }
 }
 
+.card {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.8s ease-in-out;
+}
+
+.card-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
 .left-50 {
