@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "selected-text": "#A3A3FF",
-        theme: "var(--swiper-navigation-color,var(--swiper-theme-color))",
+        theme: "#007aff",
         nav: "#404053",
         secondary: "#9191A4",
         badge: "#3F3F51",

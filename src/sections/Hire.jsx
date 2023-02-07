@@ -42,21 +42,21 @@ const Hire = () => {
   };
 
   return (
-    <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full xl:ml-8">
-      <section class="w-full">
-        <h2 class="secondary-title">Send me a message</h2>
-        <p id="contact" class="section-paragraph">
+    <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full xl:ml-8">
+      <section className="w-full">
+        <h2 className="secondary-title">Send me a message</h2>
+        <p id="contact" className="section-paragraph">
           Feel free to to contact me any time, through any method below.
         </p>
 
-        <div class="w-full grid lg:grid-cols-2 gap-4 lg:gap-32 mt-18">
-          <form class="space-y-8" onSubmit={sendMessage}>
+        <div className="w-full grid lg:grid-cols-2 gap-4 lg:gap-32 mt-18">
+          <form className="space-y-8" onSubmit={sendMessage}>
             <div>
-              <label class="text-white block mb-2 text-xl font-bold">
+              <label className="text-white block mb-2 text-xl font-bold">
                 Name
               </label>
               <input
-                class="w-full border border-input-border bg-input px-3 py-2"
+                className="w-full border border-input-border bg-input px-3 py-2"
                 type="text"
                 name="name"
                 onChange={handleChange}
@@ -64,55 +64,55 @@ const Hire = () => {
               />
             </div>
             <div>
-              <label class="text-white block mb-2 text-xl font-bold">
+              <label className="text-white block mb-2 text-xl font-bold">
                 Email
               </label>
               <input
                 type="email"
                 name="email"
-                class="w-full border border-input-border bg-input px-3 py-2"
+                className="w-full border border-input-border bg-input px-3 py-2"
                 onChange={handleChange}
                 value={state.email}
               />
             </div>
             <div>
-              <label class="text-white block mb-2 text-xl font-bold">
+              <label className="text-white block mb-2 text-xl font-bold">
                 Message
               </label>
               <textarea
                 type="text"
                 name="message"
-                class="w-full border border-input-border bg-input px-3 py-2 h-56 resize-none"
+                className="w-full border border-input-border bg-input px-3 py-2 h-56 resize-none"
                 onChange={handleChange}
                 value={state.message}
               ></textarea>
             </div>
             <button
-              class="px-6 py-2 bg-theme text-white font-bold"
+              className="px-6 py-2 bg-theme text-white font-bold"
               type="sumbit"
             >
               Send it!
             </button>
           </form>
 
-          <div class="mt-12">
+          <div className="mt-12">
             {/* <!-- Contact info --> */}
-            <p class="text-secondary">Email me!</p>
+            <p className="text-secondary">Email me!</p>
             <a
               href="mailto:me.leandrop@gmail.com"
-              class="text-secondary underline mt-3 block"
+              className="text-secondary underline mt-3 block"
             >
               me.leandrop@gmail.com
             </a>
 
             {/* <!-- Socials --> */}
-            <div class="flex mt-20 space-x-6">
+            <div className="flex mt-20 space-x-6">
               {/* <!-- Linkedin --> */}
               <a
                 href="https://www.linkedin.com/in/leandro-pereyra/"
-                class="hover:opacity-50 hover:duration-500"
+                className="hover:opacity-50 hover:duration-500"
               >
-                <svg class="w-8 h-8  lg:w-12 lg:h-12" viewBox="0 0 128 128">
+                <svg className="w-8 h-8  lg:w-12 lg:h-12" viewBox="0 0 128 128">
                   <path
                     fill="#0076b2"
                     d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3z"
@@ -126,9 +126,9 @@ const Hire = () => {
               {/* <!-- Github --> */}
               <a
                 href="https://www.github.com/txakurhub"
-                class="hover:opacity-50 hover:duration-500"
+                className="hover:opacity-50 hover:duration-500"
               >
-                <i class="devicon-github-original text-white text-5xl"></i>
+                <i className="devicon-github-original text-white text-5xl"></i>
               </a>
             </div>
           </div>

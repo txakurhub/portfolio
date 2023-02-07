@@ -1,15 +1,15 @@
 const Background = () => {
   return (
     <div>
-      <div class="x1"></div>
-      <div class="x2"></div>
-      <div class="x3"></div>
-      <div class="x4"></div>
-      <div class="x5"></div>
-      <div class="x6"></div>
-      <div class="x7"></div>
-      <div class="x8"></div>
-      <div class="x9"></div>
+      <div className="x1"></div>
+      <div className="x2"></div>
+      <div className="x3"></div>
+      <div className="x4"></div>
+      <div className="x5"></div>
+      <div className="x6"></div>
+      <div className="x7"></div>
+      <div className="x8"></div>
+      <div className="x9"></div>
     </div>
   );
 };

@@ -1,0 +1,33 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.from-left {
+    width: 45%;
+    transition: transform 1s ease-in-out, opacity 2s ease-in-out;
+    transform: translateX(-100%);
+    opacity: 0;
+
+}
+
+.from-right {
+    width: 45%;
+    transition: transform 1s ease-in-out, opacity 2s ease-in-out;
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+
+.show {
+    transform: translateX(0);
+    opacity: 1;
+}

@@ -31,17 +31,19 @@ body {
   }
 }
 
-.card {
-  opacity: 0;
-  transform: translateY(90px);
-  transition: all 0.8s ease-in-out;
+
+.entrada-arriba {
+  animation: entrada-arriba 0.5s ease-in-out;
 }
 
-.card-visible {
-  opacity: 1;
-  transform: translateY(0);
+@keyframes entrada-arriba {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
 }
-
 
 .left-50 {
   left: 50%

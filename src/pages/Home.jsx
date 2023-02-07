@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import About from "../sections/About";
 import Hire from "../sections/Hire";
 import Presentation from "../sections/Presentation";
@@ -25,22 +26,38 @@ const Home = () => {
     updateList();
   });
 
-  window.onscroll = function () {
-    const cards = document.querySelectorAll(".card");
-    const scrollPosition = window.scrollY + window.innerHeight;
-    cards.forEach((card) => {
-      const cardPosition = card.offsetTop + card.offsetHeight / 2;
-      if (scrollPosition > cardPosition) {
-        card.classList.add("card-visible");
+  const [scrollY, setScrollY] = useState(0);
+  const [show, setShow] = useState(false);
+  const aboutRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+      if (isInViewport(aboutRef.current)) {
+        setShow(true);
       }
-    });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  const isInViewport = (element) => {
+    if (!element) return false;
+
+    const elementTop = element.offsetTop;
+    const elementBottom = elementTop + element.offsetHeight;
+    const viewportTop = scrollY;
+    const viewportBottom = viewportTop + window.innerHeight;
+
+    return elementBottom > viewportTop && elementTop < viewportBottom;
   };
   return (
-    <main class="mb-24">
+    <main className="mb-24">
       <Presentation />
-      <About />
-      <Work />
-      <Hire />
+      <About isInViewport={isInViewport} aboutRef={aboutRef} show={show} />
+      <Work isInViewport={isInViewport} aboutRef={aboutRef} scrollY={scrollY} />
+      <Hire isInViewport={isInViewport} aboutRef={aboutRef} show={show} />
     </main>
   );
 };

@@ -1,52 +1,52 @@
 const Presentation = () => {
   return (
     <section>
-      <div class="container mt-16 mb-16 flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
-        <div class="flex flex-wrap md:flex-nowrap">
-          <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
-            <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+      <div className="container mt-16 mb-16 flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
+        <div className="flex flex-wrap md:flex-nowrap">
+          <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+            <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
               <a
                 href="#home"
-                class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body"
+                className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body"
               >
-                <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
                   Home
                 </span>
               </a>
               <a
                 href="#about"
-                class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+                className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
               >
-                <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
                   About
                 </span>
               </a>
               <a
                 href="#work"
-                class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+                className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
               >
-                <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
                   Work
                 </span>
               </a>
 
               <a
                 href="#contact"
-                class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+                className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
               >
-                <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+                <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
                   Contact
                 </span>
               </a>
             </div>
           </nav>
 
-          <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-lg mt-0 md:my-36 ">
-            <h1 class="font-bold text-4xl md:text-6xl lg:text-7xl  md:text-left ">
+          <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-lg mt-0 md:my-36 ">
+            <h1 className="font-bold text-4xl md:text-6xl lg:text-7xl  md:text-left ">
               <div className="flex flex-wrap text-rotate text-rotate-one opacity-75 ">
                 Let's transform <br className="md:hidden"></br> your ideas
               </div>
-              <div class="text-rotate text-rotate-two  opacity-75 ">
+              <div className="text-rotate text-rotate-two  opacity-75 ">
                 into an effective
               </div>
               <div className="text-rotate text-rotate-three  opacity-75  ">
@@ -55,7 +55,7 @@ const Presentation = () => {
             </h1>
             <a
               href="#work"
-              class="px-8 py-4 bg-theme mt-12 flex justify-center md:justify-start items-center space-x-3 "
+              className="px-8 py-4 bg-theme mt-12 flex justify-center md:justify-start items-center space-x-3 "
             >
               <svg
                 width="22"
