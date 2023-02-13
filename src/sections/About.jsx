@@ -11,7 +11,7 @@ const About = ({show, isInViewport}) => {
     <section
       ref={aboutRef}
       className={`w-full mt-64 pb-10 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 xl:ml-8 ${
-        show ? "entrada-arriba" : ""
+        isInViewport ? "entrada-arriba" : ""
       }`}
     >
       <div className="w-full xl:ml-12 mr-12">
